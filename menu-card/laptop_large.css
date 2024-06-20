@@ -1,0 +1,143 @@
+*{
+    margin: 0rem;
+ }
+ @media screen and (max-width:1441px) {
+  .container{
+      width:50%;
+      margin:0 auto;
+      border:solid 0.125rem rgb(0, 0, 0);
+       background-image:url(../images/newbg.png);
+  }
+ 
+  .logo{
+      width:15.625rem;
+      height:9.375rem;
+      margin:0 auto;
+  }
+ 
+  .txt1{
+      font-family:'Times New Roman', Times, serif;
+      font-weight:bold;
+      font-size: 2.5rem;
+      text-align:center;
+      color:black;
+  }
+ 
+  .txt2{
+      width:90%;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 1.25rem;
+      /* font-weight: bold; */
+      text-align:center;
+      color:#ff0000;
+      margin:1.25rem auto 0rem auto;
+  }
+ 
+  .people-count{
+      display:-webkit-box;
+      display:-ms-flexbox;
+      display:flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width:20rem;
+      height:4rem;
+      margin:3rem 0 0 2.5rem;
+  }
+ 
+  .people-count-text{
+      font-family: Arial;
+      font-size: 1.5rem;
+  }
+ 
+  input[type="number"]{
+      width:6rem;
+      height:1rem;
+      border:0.15rem solid black;
+      border-radius: 0.3rem;
+      -webkit-border-radius: 0.3rem;
+      -moz-border-radius: 0.3rem;
+      -ms-border-radius: 0.3rem;
+      -o-border-radius: 0.3rem;
+       color:black;
+  }
+ 
+  /* .heading{
+      font-family: Verdana;
+      font-size: 1.875rem;
+      font-weight: bold;
+      margin:2.5rem 0rem 0rem 3.125rem;
+      text-decoration: underline 0.188rem solid;
+  } */
+  
+  .lunch{
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 2.813rem;
+      color: rgb(0, 0, 0);
+      margin:2rem 0rem 0rem 3.125rem;
+      letter-spacing: -0.125rem;
+  }
+ 
+  .dinner{
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 2.813rem;
+      color:black;
+      margin:3.75rem 0rem 0rem 3.125rem;
+      letter-spacing: -0.125rem;
+  }
+ 
+  .starters{
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 2.813rem;
+      color:black;
+      margin:3.75rem 0rem 0rem 3.125rem;
+      letter-spacing: -0.125rem;
+  }
+ 
+  .additional{
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 2.813rem;
+      color:black;
+      margin:3.75rem 0rem 0rem 3.125rem;
+      letter-spacing: -0.125rem;
+  }
+ 
+  .snacks{
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 2.813rem;
+      color:black;
+      margin:3.75rem 0rem 0rem 3.125rem;
+      letter-spacing: -0.125rem;
+  }
+ 
+  .dish{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 1.375rem;
+      color:#1500b8;
+      /* font-weight: bold; */
+      margin:0.625rem 0rem 0rem 3.125rem;
+  }
+ 
+  .menu{
+      font-family: verdana;
+      font-size: 1.438rem;
+      color:black;
+      margin:1.875rem 0rem 0rem 3.125rem;
+  }
+ 
+  #comments{
+         width:60%;
+         height:2.3rem;
+         color:black;
+         border-radius:0.8rem;
+         margin-left:8.5rem;
+         margin-top:2.5rem;
+    }
+
+  input[type="checkbox"]{
+      width:1.25rem;
+      height:1.25rem;
+  }
+}

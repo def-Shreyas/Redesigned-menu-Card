@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="4k_display.css">
+    <link rel="stylesheet" href="laptop_large.css">
+    <link rel="stylesheet" href="laptop.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="mobile_large.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="logo"><img src="../images/logo.png" alt="logo" width="100%" height="100%"> </div>
+
+        <div class="txt1">MENU CARD</div>
+
+        <div class="txt2">Note:People opting for Veg menu are eligible to choose 2 dishes from Veg</div>
+        <div class="people-count">
+            <p class="people-count-text">People Count</p>
+            <input type="number" min="0" max="100" id="people">
+        </div>
+
+        <form id="orderForm">
+        <div class="lunch" id="lunch">Lunch Menu</div>
+
+        <div class="dish">Dishes for Non-Veg (Choose any 1)</div>
+
+        <div class="menu" id="lunchmenu">
+            <input type="checkbox" id="cmasala_lunch" name="cmasala">
+            <label for="cmasala_lunch">Chicken Masala</label>
+
+            <br><input type="checkbox" id="bchicken_lunch" name="bchicken">
+            <label for="bchicken_lunch">Butter Chicken</label>
+
+            <br><input type="checkbox" id="gctadka_lunch" name="gctadka">
+            <label for="gctadka_lunch">Gavaran Chicken Tadka</label>
+
+            <br><input type="checkbox" id="ckolhapuri_lunch" name="ckolhapuri">
+            <label for="ckolhapuri_lunch">Chicken Kolhapuri</label>
+
+            <br><input type="checkbox" id="chandi_lunch" name="chandi">
+            <label for="chandi_lunch">Chicken Handi</label>
+
+            <br><input type="checkbox" id="mchicken_lunch" name="mchicken">
+            <label for="mchicken_lunch">Malai Chicken</label>
+
+            <br><input type="checkbox" id="ckorma_lunch" name="ckorma">
+            <label for="ckorma_lunch">Chicken Korma</label>
+
+            <br><input type="checkbox" id="chydrabadi_lunch" name="chydrabadi">
+            <label for="chydrabadi_lunch">Chicken Hydrabadi</label>
+        </div>
+        <div class="txt2">Note:-Additional selection chargeable 150 per dish per person</div>
+
+                        <!-- Veg Dishes-->
+        <div class="dish" style="margin-top:50px;">Dishes for Veg (Choose any 1)</div>
+<!-- edited id,onclick -->
+        <div class="menu" id="lunchmenu">
+            <input type="checkbox" id="vkolhapuri" name="vkolhapuri">
+            <label for="vkolhapuri">Veg Kolhapuri</label>
+
+            <br><input type="checkbox" id="mveg" name="mveg">
+            <label for="mveg">Mix Veg</label>
+
+            <br><input type="checkbox" id="agobi" name="agobi">
+            <label for="agobi">Aloo Gobi</label>
+
+            <br><input type="checkbox" id="vkofta" name="vkofta">
+            <label for="vkofta">Veg Kofta</label>
+
+            <br><input type="checkbox" id="pbmasala" name="pbmasala">
+            <label for="pbmasala">Paneer Butter Masala</label>
+
+            <br><input type="checkbox" id="pkhadai" name="pkhadai">
+            <label for="pkhadai">Paneer Khadai</label>
+
+            <br><input type="checkbox" id="ppaneer" name="ppaneer">
+            <label for="ppaneer">Palak Paneer</label>
+
+            <br><input type="checkbox" id="mpaneer" name="mpaneer">
+            <label for="mpaneer">Matar Paneer</label>
+
+            <!-- <br><input type="checkbox" id="vkolhapuri" name="vkolhapuri">
+            <label for="vkolhapuri">Veg Kolhapuri</label> -->
+
+            <br><input type="checkbox" id="sbhaji" name="sbhaji">
+            <label for="sbhaji">Shev Bhaji</label>
+
+            <br><input type="checkbox" id="bfry" name="bfry">
+            <label for="bfry">Bhendi Fry</label>
+
+            <br><input type="checkbox" id="jaloo" name="jaloo">
+            <label for="jaloo">Jeera Aloo</label>
+
+            <br><input type="checkbox" id="mmmalai" name="mmmalai">
+            <label for="mmmalai">Methi Malai Paneer</label>
+
+            <br><input type="checkbox" id="bwangi" name="bwangi">
+            <label for="bwangi">Bharli Wangi</label>
+
+            <br><input type="checkbox" id="musal" name="musal">
+            <label for="musal">Matki Usal</label>
+
+            <br><input type="checkbox" id="pithla" name="pithla">
+            <label for="pithla">Pithla</label>
+
+            <br><input type="checkbox" id="mjunka" name="mjunka">
+            <label for="mjunka">Methi Junka</label>
+
+            <br><input type="checkbox" id="amassur" name="amassur">
+            <label for="amassur">Akkha Massur</label>
+
+            <br><input type="checkbox" id="bmasala" name="bmasala">
+            <label for="bmasala">Bhendi Masala</label>
+
+            <br><input type="checkbox" id="smasala" name="smasala">
+            <label for="smasala">Shimla Masala</label>
+
+            <br><input type="checkbox" id="saloo" name="saloo">
+            <label for="saloo">Shimla Aloo</label>
+
+            <br><input type="checkbox" id="bcmasala" name="bcmasala">
+            <label for="bcmasala">Baby Corn Masala</label>
+
+            <br><input type="checkbox" id="phariyali" name="phariyali">
+            <label for="phariyali">Paneer Hariyali</label>
+        </div>
+        <div class="txt2">Note:-Additional selection chargeable 150 per dish per person</div>
+
+                                <!--Daal-->
+        <div class="dish">Dal (Choose any 1)</div>
+<!-- edited id -->
+        <div class="menu" id="lunchmenu">
+            <input type="checkbox" id="khadai_lunch" name="khadai">
+            <label for="khadai_lunch">Khadai</label>
+
+            <br><input type="checkbox" id="dfry" name="dfry">
+            <label for="dfry">Dal Fry</label>
+
+            <br><input type="checkbox" id="dtadka" name="dtadka">
+            <label for="dtadka">Dal Tadka</label>
+
+            <br><input type="checkbox" id="dmakhni" name="dmakhni">
+            <label for="dmakhni">Dal Makhni</label>
+
+            <br><input type="checkbox" id="skadi" name="skadi">
+            <label for="skadi">Sindhi Kadi</label>
+
+            <br><input type="checkbox" id="pkadi" name="pkadi">
+            <label for="pkadi">Punjabi Kadi</label>
+
+            <br><input type="checkbox" id="rmasala" name="rmasala">
+            <label for="rmasala">Rajma Masala</label>
+
+            <br><input type="checkbox" id="kpakoda" name="kpakoda">
+            <label for="kpakoda">Kadi Pakoda</label>
+        </div>
+
+            <div class="txt2">Note:-Additional selection chargeable 150 per dish per person</div>
+
+            <!--Rice-->
+        <div class="dish">Rice (Choose any 1)</div>
+<!-- edited id -->
+        <div class="menu" id="lunchmenu">
+            <input type="checkbox" id="jrice" name="jrice">
+            <label for="jrice">Jeera Rice</label>
+
+            <br><input type="checkbox" id="srice" name="srice">
+            <label for="srice">Steam Rice</label>
+
+            <br><input type="checkbox" id="lrice" name="lrice">
+            <label for="lrice">Lemon Rice</label>
+
+            <br><input type="checkbox" id="mrice" name="mrice">
+            <label for="mrice">Masala Rice</label>
+
+            <br><input type="checkbox" id="tpulao" name="tpulao">
+            <label for="tpulao">Tawa Pulao</label>
+
+            <br><input type="checkbox" id="mpulao" name="mpulao">
+            <label for="mpulao">Matar Pulao</label>
+
+            <br><input type="checkbox" id="trice" name="trice">
+            <label for="trice">Tomato Rice</label>
+        </div>
+
+            <div class="txt2">Note:-Additional selection chargeable 150 per dish per person</div>
+
+            <!--Bread-->
+        <div class="dish">Bread (Choose any 1)</div>
+
+        <div class="menu" id="lunchmenu">
+            <input type="checkbox" id="naan" name="naan">
+            <label for="naan">Naan</label>
+
+            <br><input type="checkbox" id="bnaan" name="bnan">
+            <label for="bnaan">Butter Naan</label>
+
+            <br><input type="checkbox" id="gnaan" name="gnaan">
+            <label for="gnaan">Garlic Naan</label>
+
+            <br><input type="checkbox" id="roti" name="roti">
+            <label for="roti">Roti</label>
+
+            <br><input type="checkbox" id="broti" name="broti">
+            <label for="broti">Butter Roti</label>
+
+            <br><input type="checkbox" id="paratha" name="paratha">
+            <label for="paratha">Paratha</label>
+
+            <br><input type="checkbox" id="chapati" name="chapati">
+            <label for="chapati">Chapati</label>
+        </div>
+
+            <div class="txt2">Note:-Additional selection chargeable 150 per dish per person</div>
+
+                            <!--Additional-->
+            <div class="additional" id="additional">Additional</div>
+
+        <div class="menu" id="additionalmenu">
+            <input type="checkbox" id="papad" name="papad">
+            <label for="papad">Papad</label>
+
+            <br><input type="checkbox" id="salad" name="salad">
+            <label for="salad">Salad</label>
+
+            <br><input type="checkbox" id="pickle" name="pickle">
+            <label for="pickle">Pickle</label>
+        </div>
+
+                     <!--Evening Snacks-->
+            <!--edited class  -->
+        <div class="evening" id="evening">Evening Snacks</div>
+
+        <div class="dish">Hi Tea (Choose any 2)</div>
+
+        <div class="menu" id="eveningmenu">
+            <input type="checkbox" id="kbhajia" name="kbhajia">
+            <label for="kbhajia">Kanda Bhajia</label>
+
+            <br><input type="checkbox" id="abhajia" name="abhajia">
+            <label for="abhajia">Aloo Bhajia</label>
+
+            <br><input type="checkbox" id="maggie" name="maggie">
+            <label for="maggie">Maggie</label>
+            
+            <br><input type="checkbox" id="ffries" name="ffries">
+            <label for="ffries">French Fries</label>
+
+            <br><input type="checkbox" id="bpakoda" name="bpakoda">
+            <label for="bpakoda">Bread Pakoda</label>
+
+            <br><input type="checkbox" id="svada" name="svada">
+            <label for="svada">Sabudana Vada</label>
+
+            <br><input type="checkbox" id="bhel" name="bhel">
+            <label for="bhel">Bhel</label>
+
+            <br><input type="checkbox" id="vpav" name="vpav">
+            <label for="vpav">Vada Pav</label>
+        </div>
+
+        <div class="txt2">Note:-Additional selection chargeable 50 per dish per person</div>
+<!-- -->
+        <div class="dish" id="hightea">Drinks</div>
+
+        <div class="menu" id="highteamenu">
+            <input type="checkbox" id="tea" name="tea">
+            <label for="tea">Tea</label>
+
+            <br><input type="checkbox" id="coffee" name="coffee">
+            <label for="coffee">Coffee</label>
+
+            <br><input type="checkbox" id="milk" name="milk">
+            <label for="milk">Milk</label>
+
+            <br><input type="checkbox" id="other" name="other">
+            <label for="other">Other</label>
+        </div>
+
+        <div class="txt2">Note:-Additional selection chargeable eg.soft drinks</div>
+
+                        <!--Starters-->
+        <div class="starters" id="starters">Starters (9pm-11pm)</div>
+
+        <div class="dish">Dishes for Veg (Choose any 1)</div>
+
+        <div class="menu" id="startersmenu">
+            <input type="checkbox" id="pchilly" name="pchilly">
+            <label for="pchilly">Paneer Chilly</label>
+
+            <br><input type="checkbox" id="dmanchurian" name="dmanchurian">
+            <label for="dmanchurian">Dry Manchurian</label>
+
+            <br><input type="checkbox" id="cpotato" name="cpotato">
+            <label for="cpotato">Crispy Potato</label>
+
+            <br><input type="checkbox" id="ccorn" name="ccorn">
+            <label for="ccorn">Crispy Corn</label>
+        </div>
+
+        <div class="txt2">Note:-Additional selection chargeable 150 per dish per person</div>
+
+        
+        <div class="dish">Dishes for Non-Veg (Choose any 1)</div>
+        
+        <div class="menu" id="startersmenu">
+            <input type="checkbox" id="cfry" name="cfry">
+            <label for="cfry">Chicken Fry</label>
+
+            <br><input type="checkbox" id="csukha" name="csukha">
+            <label for="csukha">Chicken Sukha</label>
+
+            <br><input type="checkbox" id="cchilly" name="cchilly">
+            <label for="cchilly">Chicken Chilly</label>
+            
+            <br><input type="checkbox" id="c65" name="c65">
+            <label for="c65">Chicken 65</label>
+            
+            <br><input type="checkbox" id="cpopcorn" name="cpopcorn">
+            <label for="cpopcorn">Chicken Popcorn</label>
+        </div>
+        
+        <div class="txt2">Note:-Additional selection chargeable 150 per dish per person</div>
+        
+        <!--Dinner-->
+        <div class="dinner" id="dinner" value="Dinner">Dinner (9pm-11pm)</div>
+        <div class="dish">Dishes for Non-Veg (Choose any 1)</div>
+
+        <div class="menu" id="dinnermenu">
+            <input type="checkbox" id="cmasala_dine" name="cmasala_dine">
+            <label for="cmasala_dine">Chicken Masala</label>
+
+            <br><input type="checkbox" id="bchicken_dine" name="bchicken_dine">
+            <label for="bchicken_dine">Butter Chicken</label>
+
+            <br><input type="checkbox" id="gctadka_dine" name="gctadka_dine">
+            <label for="gctadka_dine">Gavaran Chicken Tadka</label>
+
+            <br><input type="checkbox" id="ckolhapuri_dine" name="ckolhapuri_dine">
+            <label for="ckolhapuri_dine">Chicken Kolhapuri</label>
+
+            <br><input type="checkbox" id="chandi_dine" name="chandi_dine">
+            <label for="chandi_dine">Chicken Handi</label>
+
+            <br><input type="checkbox" id="mchicken_dine" name="mchicken_dine">
+            <label for="mchicken_dine">Malai Chicken</label>
+
+            <br><input type="checkbox" id="ckorma_dine" name="ckorma_dine">
+            <label for="ckorma_dine">Chicken Korma</label>
+
+            <br><input type="checkbox" id="chydrabadi_dine" name="chydrabadi_dine">
+            <label for="chydrabadi_dine">Chicken Hydrabadi</label>
+        </div>
+        <div class="txt2">Note:-Additional selection chargeable 150 per dish per person</div>
+
+                        <!-- Veg Dishes-->
+        <div class="dish" style="margin-top:50px;">Dishes for Veg (Choose any 1)</div>
+
+        <div class="menu" id="dinnermenu">
+            <input type="checkbox" id="vkolhapuri_dine" name="vkolhapuri_dine">
+            <label for="vkolhapuri_dine">Veg Kolhapuri</label>
+
+            <br><input type="checkbox" id="mveg_dine" name="mveg_dine">
+            <label for="mveg_dine">Mix Veg</label>
+
+            <br><input type="checkbox" id="agobi_dine" name="agobi_dine">
+            <label for="agobi_dine">Aloo Gobi</label>
+
+            <br><input type="checkbox" id="vkofta_dine" name="vkofta_dine">
+            <label for="vkofta_dine">Veg Kofta</label>
+
+            <br><input type="checkbox" id="pbmasala_dine" name="pbmasala_dine">
+            <label for="pbmasala_dine">Paneer Butter Masala</label>
+
+            <br><input type="checkbox" id="pkhadai_dine" name="pkhadai_dine">
+            <label for="pkhadai_dine">Paneer Khadai</label>
+
+            <br><input type="checkbox" id="ppaneer_dine" name="ppaneer_dine">
+            <label for="ppaneer_dine">Palak Paneer</label>
+
+            <br><input type="checkbox" id="mpaneer_dine" name="mpaneer_dine">
+            <label for="mpaneer_dine">Matar Paneer</label>
+
+            <!-- <br><input type="checkbox" id="vkolhapuri" name="vkolhapuri">
+            <label for="vkolhapuri">Veg Kolhapuri</label> -->
+
+            <br><input type="checkbox" id="sbhaji_dine" name="sbhaji_dine">
+            <label for="sbhaji_dine">Shev Bhaji</label>
+
+            <br><input type="checkbox" id="bfry_dine" name="bfry_dine">
+            <label for="bfry_dine">Bhendi Fry</label>
+
+            <br><input type="checkbox" id="jaloo_dine" name="jaloo_dine">
+            <label for="jaloo_dine">Jeera Aloo</label>
+
+            <br><input type="checkbox" id="mmmalai_dine" name="mmmalai_dine">
+            <label for="mmmalai_dine">Methi Malai Paneer</label>
+
+            <br><input type="checkbox" id="bwangi_dine" name="bwangi_dine">
+            <label for="bwangi_dine">Bharli Wangi</label>
+
+            <br><input type="checkbox" id="musal_dine" name="musal_dine">
+            <label for="musal_dine">Matki Usal</label>
+
+            <br><input type="checkbox" id="pithla_dine" name="pithla_dine">
+            <label for="pithla_dine">Pithla</label>
+
+            <br><input type="checkbox" id="mjunka_dine" name="mjunka_dine">
+            <label for="mjunka_dine">Methi Junka</label>
+
+            <br><input type="checkbox" id="amassur_dine" name="amassur_dine">
+            <label for="amassur_dine">Akkha Massur</label>
+
+            <br><input type="checkbox" id="bmasala_dine" name="bmasala_dine">
+            <label for="bmasala_dine">Bhendi Masala</label>
+
+            <br><input type="checkbox" id="smasala_dine" name="smasala_dine">
+            <label for="smasala_dine">Shimla Masala</label>
+
+            <br><input type="checkbox" id="saloo_dine" name="saloo_dine">
+            <label for="saloo_dine">Shimla Aloo</label>
+
+            <br><input type="checkbox" id="bcmasala_dine" name="bcmasala_dine">
+            <label for="bcmasala_dine">Baby Corn Masala</label>
+
+            <br><input type="checkbox" id="phariyali_dine" name="phariyali_dine">
+            <label for="phariyali_dine">Paneer Hariyali</label>
+        </div>
+        <div class="txt2">Note:-Additional selection chargeable 150 per dish per person</div>
+
+                                <!--Daal-->
+        <div class="dish">Dal (Choose any 1)</div>
+
+        <div class="menu" id="dinnermenu">
+            <input type="checkbox" id="khadai_dine" name="khadai_dine">
+            <label for="khadai_dine">Khadai</label>
+
+            <br><input type="checkbox" id="dfry_dine" name="dfry_dine">
+            <label for="dfry_dine">Dal Fry</label>
+
+            <br><input type="checkbox" id="dtadka_dine" name="dtadka_dine">
+            <label for="dtadka_dine">Dal Tadka</label>
+
+            <br><input type="checkbox" id="dmakhni_dine" name="dmakhni_dine">
+            <label for="dmakhni_dine">Dal Makhni</label>
+
+            <br><input type="checkbox" id="skadi_dine" name="skadi_dine">
+            <label for="skadi_dine">Sindhi Kadi</label>
+
+            <br><input type="checkbox" id="pkadi_dine" name="pkadi_dine">
+            <label for="pkadi_dine">Punjabi Kadi</label>
+
+            <br><input type="checkbox" id="rmasala_dine" name="rmasala_dine">
+            <label for="rmasala_dine">Rajma Masala</label>
+
+            <br><input type="checkbox" id="kpakoda_dine" name="kpakoda_dine">
+            <label for="kpakoda_dine">Kadi Pakoda</label>
+        </div>
+
+            <div class="txt2">Note:-Additional selection chargeable 150 per dish per person</div>
+
+            <!--Rice-->
+        <div class="dish">Rice (Choose any 1)</div>
+
+        <div class="menu" id="dinnermenu">
+            <input type="checkbox" id="jrice_dine" name="jrice_dine">
+            <label for="jrice_dine">Jeera Rice</label>
+
+            <br><input type="checkbox" id="srice_dine" name="srice_dine">
+            <label for="srice_dine">Steam Rice</label>
+
+            <br><input type="checkbox" id="lrice_dine" name="lrice_dine">
+            <label for="lrice_dine">Lemon Rice</label>
+
+            <br><input type="checkbox" id="mrice_dine" name="mrice_dine">
+            <label for="mrice_dine">Masala Rice</label>
+
+            <br><input type="checkbox" id="tpulao_dine" name="tpulao_dine">
+            <label for="tpulao_dine">Tawa Pulao</label>
+
+            <br><input type="checkbox" id="mpulao_dine" name="mpulao_dine">
+            <label for="mpulao_dine">Matar Pulao</label>
+
+            <br><input type="checkbox" id="trice_dine" name="trice_dine">
+            <label for="trice_dine">Tomato Rice</label>
+        </div>
+
+            <div class="txt2">Note:-Additional selection chargeable 150 per dish per person</div>
+
+            <!--Bread-->
+        <div class="dish"  value="Bread">Bread (Choose any 1)</div>
+
+        <div class="menu" id="dinnermenu">
+            <input type="checkbox" id="naan_dine" name="naan_dine">
+            <label for="naan_dine">Naan</label>
+
+            <br><input type="checkbox" id="bnaan_dine" name="bnan_dine">
+            <label for="bnaan_dine">Butter Naan</label>
+
+            <br><input type="checkbox" id="gnaan_dine" name="gnaan_dine">
+            <label for="gnaan_dine">Garlic Naan</label>
+
+            <br><input type="checkbox" id="roti_dine" name="roti_dine">
+            <label for="roti_dine">Roti</label>
+
+            <br><input type="checkbox" id="broti_dine" name="broti_dine">
+            <label for="broti_dine">Butter Roti</label>
+
+            <br><input type="checkbox" id="paratha_dine" name="paratha_dine">
+            <label for="paratha_dine">Paratha</label>
+
+            <br><input type="checkbox" id="chapati_dine" value="Chapati">
+            <label for="chapati_dine">Chapati</label>
+        </div>
+
+            <div class="txt2">Note:-Additional selection chargeable 150 per dish per person</div>
+
+            <input type="text" placeholder="Suggestions or special requests can be made here" id="comments">
+
+                <button type="button" id="whatsapp-btn" onclick="submitOrder()">Submit</button>
+    </div>
+    </form>
+<!--     <script src="script.js"></script> -->
+    <script src="whats.js"></script>
+</body>
+</html>

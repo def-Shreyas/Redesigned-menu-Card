@@ -1,0 +1,184 @@
+* {
+  margin: 0rem;
+}
+
+@media screen and (max-width:2561px) {
+  .container {
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 0.125rem solid rgb(0, 0, 0);
+    background-image: url(../images/newbg.png);
+  }
+
+  .logo {
+    width: 15.625rem;
+    height: 9.375rem;
+    margin: 0 auto;
+  }
+
+  .txt1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #000000;
+  }
+
+  .txt2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #ff0000;
+    margin-top: 1.875rem;
+  }
+
+  .people-count {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 35rem;
+    height: 4rem;
+    margin: 3rem 0 0 6rem;
+  }
+
+  .people-count-text {
+    font-family: Arial;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  input[type="number"] {
+    width: 15rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    border: 0.15rem solid black;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+  }
+
+  .lunch {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.813rem;
+    font-weight: bold;
+    margin: 3.75rem 0rem 0rem 5.625rem;
+    letter-spacing: -0.125rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  .dinner {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.813rem;
+    font-weight: bold;
+    margin: 3.75rem 0rem 0rem 5.625rem;
+    letter-spacing: -0.125rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  .starters {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.813rem;
+    font-weight: bold;
+    margin: 3.75rem 0rem 0rem 5.625rem;
+    letter-spacing: -0.125rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  .additional {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.813rem;
+    font-weight: bold;
+    margin: 3.75rem 0rem 0rem 5.625rem;
+    letter-spacing: -0.125rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  .snacks {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.813rem;
+    font-weight: bold;
+    margin: 3.75rem 0rem 0rem 5.625rem;
+    letter-spacing: -0.125rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  .dish {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.563rem;
+    font-weight: bold;
+    /* font-style: italic; */
+    margin: 0.625rem 0rem 0rem 5.625rem;
+    color: #1500b8;
+  }
+
+  .menu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.875rem;
+    font-weight: 500;
+    margin: 1.875rem 0rem 0rem 5.625rem;
+    color: #000000;
+  }
+
+  input[type="checkbox"] {
+    margin: 0.25rem 0 0;
+    line-height: normal;
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+  button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: arial;
+    font-size: 1.3rem;
+    width: 10rem;
+    height: 3rem;
+    border: 0.125rem solid black;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    margin: 3rem auto 1rem auto;
+    background-color: #56453e;
+    color: #e4d4c8;
+    font-weight: bold;
+  }
+
+  #comments {
+    width: 50%;
+    height: 3rem;
+    font-size: 1.2rem;
+    color: black;
+    border-radius: 0.8rem;
+    margin-left: 15rem;
+    margin-top: 2.5rem;
+  }
+
+  button:hover {
+    -webkit-box-shadow: 0.125rem 0.313rem 0.313rem 0.125rem rgb(50, 50, 50);
+    box-shadow: 0.125rem 0.313rem 0.313rem 0.125rem rgb(50, 50, 50);
+  }
+}
