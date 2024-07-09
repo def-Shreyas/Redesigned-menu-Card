@@ -2,11 +2,14 @@
     margin: 0rem;
 }
 @media screen and (max-width:1025px){
-.container{
+body{
+background-image:url(../images/laptop\(1024px\)_bg.png);
+}
+    .container{
     width:70%;
     margin:0 auto;
     border:solid 0.125rem rgb(0, 0, 0);
-    background-image:url(../images/newbg.png);
+    background-image:url(../images/mennubg.png);
 }
 
 .logo{
